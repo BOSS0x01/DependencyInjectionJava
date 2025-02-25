@@ -4,7 +4,7 @@ import Dao.DaoImpl;
 import Dao.IDao;
 
 public class MetierImpl implements IMetier {
-    private IDao dao = new DaoImpl();
+    private IDao dao = null;
 
     public MetierImpl(IDao dao) {
         this.dao = dao;
